@@ -1,6 +1,6 @@
 {
-	"id": "obisidian-piano",
-	"name": "Obsidian Piano",
+	"id": "piano-widget",
+	"name": "Piano Widget",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Small plugin to add piano widgets to your notes.",

@@ -1,4 +1,4 @@
-# Obsidian Piano
+# Piano Widget
 
 Small plugin to add piano widgets to your notes using [piano-chart](https://github.com/ailon/piano-chart).
 

@@ -16,9 +16,9 @@ const context = await esbuild.context({
 		js: banner,
 	},
 	entryPoints: {
-		main: 'src/main.ts',
-		styles : 'src/styles.css',
-		manifest: "./manifest.json"
+		main: "src/main.ts",
+		styles: "src/styles.css",
+		manifest: "./manifest.json",
 	},
 	bundle: true,
 	external: [
@@ -35,14 +35,15 @@ const context = await esbuild.context({
 		"@lezer/common",
 		"@lezer/highlight",
 		"@lezer/lr",
-		...builtins],
+		...builtins,
+	],
 	format: "cjs",
 	target: "es2018",
 	logLevel: "info",
 	sourcemap: prod ? false : "inline",
 	treeShaking: true,
-	outdir: prod ? "dist" : "dev-vault/.obsidian/plugins/obsidian-piano",
-	loader: { ".json": "copy" }
+	outdir: prod ? "dist" : "dev-vault/.obsidian/plugins/piano-widget",
+	loader: { ".json": "copy" },
 });
 
 if (prod) {

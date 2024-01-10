@@ -26,4 +26,4 @@ data.json
 
 # Exclude dev builds
 /dev-vault/.obsidian/workspace.json
-/dev-vault/.obsidian/plugins/obsidian-piano
+/dev-vault/.obsidian/plugins/piano-widget
