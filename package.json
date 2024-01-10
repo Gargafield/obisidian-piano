@@ -1,7 +1,7 @@
 {
 	"name": "piano-widget",
-	"version": "1.0.0",
-	"description": "Obisdian plugin that renders piano-charts widgets",
+	"version": "1.1.0",
+	"description": "Obsidian plugin that renders piano-charts widgets",
 	"main": "dist/main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
