@@ -16,7 +16,7 @@ export class InstrumentElement extends MarkdownRenderChild {
     }
     
     createInstrument(): void {
-        var settings: ExtendedInstrumentSettings = {};
+        let settings: ExtendedInstrumentSettings = {};
         try {
             settings = this.parseSource(); 
         }
